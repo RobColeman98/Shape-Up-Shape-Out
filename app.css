@@ -1,0 +1,100 @@
+#shape-container {
+    position: absolute;
+  background-color: orangered;
+  width: 600px;
+  height: 600px;
+  left: 200px
+}
+
+.header {
+  text-align: center;
+  background-color: navy;
+  color:white;
+  padding: 20px 0 20px 0;
+  margin: 0
+}
+
+.shape-list {
+   text-align: left;
+}
+
+.shape-name {
+    text-align: right;
+}
+
+.width {
+    text-align: right;
+}
+
+.height {
+    text-align: right;
+}
+
+.radius {
+    text-align: right;
+}
+
+.area {
+    text-align: right; 
+}
+
+.perimeter {
+    text-align: right;
+}
+
+.triangle {
+    width: 0px;
+    height: 0px;
+   
+}
+
+ .square {
+   width: 0px;
+   height: 0px;
+ }
+
+ .circle {
+   background-color: rgb(255, 20, 180); 
+ }
+.circle {
+  background-color: rgb(0, 100, 150);
+}
+
+
+/* The sidepanel menu */
+.sidepanel {
+    height:100%; /* Specify a height */
+    width: 20%; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 90px;
+    left: 70%;
+    background-color: #111; /* Black*/
+    padding: 60px 0 0 10px;
+    color: white; /* Place content 60px from the top */
+  }
+  
+  /* The sidepanel links */
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidepanel-header {
+      margin:2px 20px;
+      padding: 0 0 0 0;
+      color: whitesmoke
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+ 
+  
